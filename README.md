@@ -1,27 +1,3 @@
-#include<stdio.h>
-int main()
-{
-    long long int n,prime=1;
-    scanf("%d",  &n);
-    for(int i=2; i<n; i++)
-    {
-        if (n%i==0)
-        {
-            prime=0;
-            break;
-        }
-    }
-
-    if(prime==0 || n==1 && n!=2)
-    {
-        printf("no");
-    }
-
-
-    else
-    {
-        printf("yes");
-    }
-    return 0;
-}
-
+hey it's yeasin arafat. 
+this is the code of finding prime number, user have to input a natural number and this code help us to find is this number a prime number or not.
+so let's see..........
